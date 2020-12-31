@@ -1,0 +1,5 @@
+print("this script will count the number of times a word appear in the text")
+message = input("Paste the text you would like to search ")
+inputvar = input("What word would you like to count ")
+number = message.count(inputvar)
+print((str(inputvar)), "appears", str(number), "time(s) in your text")
